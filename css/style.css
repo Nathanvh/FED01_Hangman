@@ -1,0 +1,67 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    background: #16192c;
+    color: #16192c;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 996px;
+}
+
+.box {
+    background: #ccccfe;
+    margin: 10px 0;
+}
+
+#wordBox{
+    
+}
+
+.shownWord{
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin: 10px auto;
+}
+
+#hangmanCanvas {
+    height: 250px;
+    width: 100%;
+}
+
+#letterBox{
+    height: 98px;
+}
+
+.letter{
+    background: #4f506f;
+    color: #fff;
+    float: left;
+    font-size: 30px;
+    margin: 6px;
+    width: 50px;
+}
+
+.letter:hover:not(.clicked) {
+    background: #717192;
+    cursor: pointer;
+}
+
+.clicked{
+    background: #a7a7c3;
+    cursor: default;
+}
+
+#copyrights{
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+}
